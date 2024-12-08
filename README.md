@@ -13,7 +13,6 @@
 
 ---
 
-
 <h2>YOLO 학습을 위해 준비해야 할 데이터</h2>
   1) labels에 들어갈 txt 파일 생성-> `class_id x_center y_center width height` <br>
   2) 각 클래스에 해당하는 메뉴 정보가 담긴 json 파일(DB를 사용할 것인지 고민 필요)
