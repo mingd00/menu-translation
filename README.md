@@ -15,9 +15,10 @@
 
 
 <h2>YOLO 학습을 위해 준비해야 할 데이터</h2>
-  1) labels에 들어갈 txt 파일 생성-> `class_id x_center y_center width height` 
+  1) labels에 들어갈 txt 파일 생성-> `class_id x_center y_center width height` <br>
   2) 각 클래스에 해당하는 메뉴 정보가 담긴 json 파일(DB를 사용할 것인지 고민 필요)
-  
+
+--- 
   
 <h2>원본 데이터 형식과 YOLO가 요구하는 형식</h2>
 
@@ -67,9 +68,11 @@ dataset/
 │   │   └── ...         
 ```
 
+---
 
 <h2>원본 데이터의 labels 폴더 -> json 파일에서 필요한 정보</h2>
-  
+
+* 해당 코드는 원본 데이터의 json 파일 구조이며 필요한 정보만 남겨놓은 것(불필요한 정보는 제거) 
 ```
 {
   "meta": {
